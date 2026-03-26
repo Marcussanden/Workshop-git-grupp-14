@@ -12,5 +12,8 @@ public class App {
 
         System.out.println(Calculator.add(a, b)));
 
+        if("2".equals(choice))
+        System.out.println(Calculator.sub(a, b)));
+
     }
 }
