@@ -1,3 +1,4 @@
+//Simple console calculator
 public class App {
     static void run(){
         System.out.println("1) Subtract\n0) Exit;
