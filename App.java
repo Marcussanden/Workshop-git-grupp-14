@@ -26,4 +26,8 @@ public class App {
         if("4".equals(choice) && b != 0) System.out.println(Calculator.div(a, b));
 
     }
+
+    public static void main(String[] args) {
+        start();
+    }
 }
