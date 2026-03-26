@@ -6,7 +6,7 @@ public class App {
         if ("1".equals(choice))
             System.out.println("1) Add \n2) Subtract \n3) Multiply \n4) Divide \n0) Exit");
         if ("1".equals(choice))
-            System.out.println("TODO Add");
+            System.out.println(Calculator.add(a, b)));
         
     }
 }
