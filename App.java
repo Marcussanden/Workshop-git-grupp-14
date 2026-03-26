@@ -8,6 +8,9 @@ public class App {
         if ("1".equals(choice))
             System.out.println("TODO Add");
 
+        if("3".equals(choice))
+            System.out.println(Calculator.mul(a,b));
+
         double a = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
         double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
 
